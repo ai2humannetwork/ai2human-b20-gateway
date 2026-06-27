@@ -1,0 +1,16 @@
+{
+  "name": "@ai2human/b20-gateway",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "test": "tsx --test test/*.test.js"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3"
+  },
+  "dependencies": {
+    "viem": "^2.31.4"
+  }
+}
+
