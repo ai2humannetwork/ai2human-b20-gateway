@@ -11,7 +11,7 @@ import {
 export const B20_FACTORY_ADDRESS = "0xB20f000000000000000000000000000000000000" as const;
 export const BASE_SEPOLIA_CHAIN_ID = 84532;
 export const BASE_SEPOLIA_RPC = "https://sepolia.base.org";
-export const DEFAULT_CONTRACT_URI = "https://ai2human.work/agent/b20/manifest.json";
+export const DEFAULT_CONTRACT_URI = "https://ai2human.io/agent/b20/manifest.json";
 
 export const B20_VARIANT = {
   ASSET: 0,

@@ -52,7 +52,7 @@ Testnet gateway seed extracted from the live AI2Human app.
 
 ## Links
 
-- Website: https://ai2human.work
+- Website: https://ai2human.io
 - X: https://x.com/ai2humannetwork
-- B20 page: https://ai2human.work/agent/b20
+- B20 page: https://ai2human.io/agent/b20
 

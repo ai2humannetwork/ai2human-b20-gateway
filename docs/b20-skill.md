@@ -21,31 +21,31 @@ Read this file, collect the token intent, generate a B20 configuration preview, 
 Preview endpoint:
 
 ```text
-https://ai2human.work/api/agent/b20/preview
+https://ai2human.io/api/agent/b20/preview
 ```
 
 Machine-readable manifest:
 
 ```text
-https://ai2human.work/agent/b20/manifest.json
+https://ai2human.io/agent/b20/manifest.json
 ```
 
 Human-readable demo:
 
 ```text
-https://ai2human.work/agent/b20
+https://ai2human.io/agent/b20
 ```
 
 OpenClaw test prompt:
 
 ```text
-https://ai2human.work/agent/b20/openclaw-test.md
+https://ai2human.io/agent/b20/openclaw-test.md
 ```
 
 Example request:
 
 ```text
-https://ai2human.work/agent/b20/examples/rwa-community-token.json
+https://ai2human.io/agent/b20/examples/rwa-community-token.json
 ```
 
 ## What This Skill Does
@@ -154,8 +154,8 @@ Ask for exact values. Do not invent live admins, policy owners, token names, sup
 ## Preview Before Building
 
 ```bash
-curl -s https://ai2human.work/agent/b20/examples/rwa-community-token.json | \
-curl https://ai2human.work/api/agent/b20/preview \
+curl -s https://ai2human.io/agent/b20/examples/rwa-community-token.json | \
+curl https://ai2human.io/api/agent/b20/preview \
   -H "Content-Type: application/json" \
   -d @-
 ```
@@ -227,4 +227,4 @@ Provides a checklist and `initCallsPlan`. This is not encoded calldata. A builde
 
 - Base B20 docs: `https://docs.base.org/base-chain/specs/upgrades/beryl/b20`
 - Base Standard Library: `https://github.com/base/base-std`
-- AI2Human Network: `https://ai2human.work`
+- AI2Human Network: `https://ai2human.io`
